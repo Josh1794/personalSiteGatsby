@@ -72,20 +72,34 @@ h1 {
   position: absolute;
 }
 .subNav {
-  margin: 0, auto;
-  max-width: 960px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   padding: 20px;
+  align-content: center;
 }
 .Links {
+  align-self: center;
   color: black;
-  margin-right: 10px;
   text-decoration: none;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .Links:hover {
   color: orange;
   text-decoration: none;
 }
-
+.resumeButton {
+  padding: 5px;
+  background-color: #444;
+  text-decoration: none;
+  color: white;
+  border-radius: 0.25rem;
+}
+.resumeButton:hover {
+  background-color: whitesmoke;
+  color: black;
+}
 .contactPage .button {
   margin-top: 6px;
   background: #444;
@@ -95,18 +109,21 @@ h1 {
   color: #2b2b2b;
 }
 .aboutPage {
+  padding-top: 10px;
   min-height: 100vh;
   border-bottom-color: white;
   border-bottom-width: 1;
   border-bottom-style: solid;
 }
 .contactPage {
+  padding-top: 10px;
   min-height: 100vh;
   border-bottom-color: white;
   border-bottom-width: 1;
   border-bottom-style: solid;
 }
 .portfolioPage {
+  padding-top: 10px;
   min-height: 100vh;
   border-bottom-color: white;
   border-bottom-width: 1;
@@ -124,6 +141,13 @@ h1 {
   border-bottom-color: white;
   border-bottom-width: 1;
   border-bottom-style: solid;
+}
+
+.emailLink {
+  color: whitesmoke;
+}
+.emailLink:hover {
+  color: orange;
 }
 
 #title path {

@@ -1,20 +1,24 @@
 import React from "react"
 import data from "./data.json"
 
-const Contact = props => (
+const Contact = () => (
   <div id="contactPage" class="contactPage">
-    <h1>Get in touch</h1>
-    <h2>Contact Details</h2>
+    <h1>Contact Details</h1>
     <p className="address">
       <span>{data.main.name}</span>
       <br />
       <span>{data.main.phone}</span>
       <br />
-      <span>{data.main.email}</span>
+      <a class="emailLink" href="mailto:josh1794@gmail.com">
+        {data.main.email}
+      </a>
     </p>
     <p>
-      <a href={data.main.resumeDownload} className="button">
-        <i className="fa fa-download"></i>
+      <a
+        class="resumeButton"
+        href="../../public/Joshua Grossman's Resume (Alt Format).pdf"
+        download
+      >
         My Resume
       </a>
     </p>
