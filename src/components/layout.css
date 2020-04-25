@@ -69,14 +69,16 @@ h1 {
   background: gray;
   margin-bottom: 10px;
   min-width: 100vw;
-  position: absolute;
+  position: sticky;
 }
 .subNav {
   display: flex;
+  flex: 1;
   flex-direction: row;
   justify-content: center;
-  padding: 20px;
   align-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .Links {
   align-self: center;
@@ -84,6 +86,7 @@ h1 {
   text-decoration: none;
   padding-right: 10px;
   padding-left: 10px;
+  font-size: medium;
 }
 .Links:hover {
   color: orange;
@@ -149,6 +152,9 @@ h1 {
   border-bottom-color: white;
   border-bottom-width: 1;
   border-bottom-style: solid;
+}
+.subTitle {
+  font-size: large;
 }
 
 .emailLink {

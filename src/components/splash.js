@@ -1,7 +1,6 @@
 import React from "react"
 import SVGTitle from "./titleSVG"
 import data from "./data.json"
-
 const Splash = () => (
   <div class="headerPage">
     <SVGTitle />
