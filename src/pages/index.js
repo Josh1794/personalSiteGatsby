@@ -7,14 +7,14 @@ import Portfolio from "../components/portfolio"
 import Contact from "../components/contact"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <Splash />
-    <About />
-    <Portfolio />
-    <Contact />
-  </Layout>
-)
-
-export default IndexPage
+export default function IndexPage() {
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <Splash />
+      <About />
+      <Portfolio />
+      <Contact />
+    </Layout>
+  )
+}

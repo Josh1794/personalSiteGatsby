@@ -92,55 +92,15 @@ h1 {
   color: orange;
   text-decoration: none;
 }
-.resumeButton {
-  padding: 5px;
-  background-color: #444;
-  text-decoration: none;
-  color: white;
-  border-radius: 0.25rem;
-}
-.resumeButton:hover {
-  background-color: whitesmoke;
-  color: black;
-}
-.contactPage .button {
-  margin-top: 6px;
-  background: #444;
-}
+/* .splash {
+  background: #161415 url("../images/header-background.jpg") no-repeat top
+    center;
+} */
 .responsive-headline {
   display: flex;
   align-items: center;
   max-width: 100%;
 }
-.contactPage .button:hover {
-  background: #fff;
-  color: #2b2b2b;
-}
-.contactInfo {
-  padding-left: 20px;
-}
-.aboutPage {
-  padding-top: 10px;
-  min-height: 100vh;
-  border-bottom-color: white;
-  border-bottom-width: 1;
-  border-bottom-style: solid;
-}
-.contactPage {
-  padding-top: 10px;
-  min-height: 100vh;
-  border-bottom-color: white;
-  border-bottom-width: 1;
-  border-bottom-style: solid;
-}
-.portfolioPage {
-  padding-top: 10px;
-  min-height: 100vh;
-  border-bottom-color: white;
-  border-bottom-width: 1;
-  border-bottom-style: solid;
-}
-
 .headerPage {
   color: whitesmoke;
   min-height: 100vh;
@@ -155,6 +115,68 @@ h1 {
 }
 .subTitle {
   font-size: large;
+}
+#splashAnimation {
+  --sal-duration: 3s;
+  max-width: 100%;
+}
+.aboutPage {
+  min-height: 100vh;
+  border-bottom-color: white;
+  border-bottom-width: 1;
+  border-bottom-style: solid;
+}
+
+/* #aboutAnimation {
+  --sal-duration: 3s;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 100%;
+} */
+
+.portfolioPage {
+  padding-top: 10px;
+  min-height: 100vh;
+  border-bottom-color: white;
+  border-bottom-width: 1;
+  border-bottom-style: solid;
+}
+
+.contactPage .button {
+  margin-top: 6px;
+  background: #444;
+}
+.contactPage .button:hover {
+  background: #fff;
+  color: #2b2b2b;
+}
+.contactInfo {
+  margin-top: 10%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.contactPage {
+  padding-top: 10px;
+  min-height: 100vh;
+  border-bottom-color: white;
+  border-bottom-width: 1;
+  border-bottom-style: solid;
+}
+
+.resumeButton {
+  padding: 5px;
+  background-color: #444;
+  text-decoration: none;
+  color: white;
+  border-radius: 0.25rem;
+}
+.resumeButton:hover {
+  background-color: whitesmoke;
+  color: black;
 }
 
 .emailLink {

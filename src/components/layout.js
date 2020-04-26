@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import Navbar from "./header"
+import Navbar from "./navBar"
 import "./layout.css"
 
 const Layout = ({ children }) => {
