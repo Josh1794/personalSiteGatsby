@@ -1,0 +1,71 @@
+{
+  "errors": [],
+  "warnings": [],
+  "namedChunkGroups": {
+    "app": {
+      "chunks": [6, 0, 5, 2],
+      "assets": [
+        "webpack-runtime-73cb50aa52a6e53f7e52.js",
+        "webpack-runtime-73cb50aa52a6e53f7e52.js.map",
+        "styles.cf4692bf138f4b580d6a.css",
+        "styles-0dd9b16d06f2e4f550cc.js",
+        "styles-0dd9b16d06f2e4f550cc.js.map",
+        "framework-c88d07efb40e009babfb.js",
+        "framework-c88d07efb40e009babfb.js.map",
+        "app-7e69c47eb6bc010deca6.js",
+        "app-7e69c47eb6bc010deca6.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-404-js": {
+      "chunks": [0, 1, 3],
+      "assets": [
+        "styles.cf4692bf138f4b580d6a.css",
+        "styles-0dd9b16d06f2e4f550cc.js",
+        "styles-0dd9b16d06f2e4f550cc.js.map",
+        "e50e9c162871c1d91fba5ce567a5656e16dc6783-6a2f9d81eec7f1e8dc7d.js",
+        "e50e9c162871c1d91fba5ce567a5656e16dc6783-6a2f9d81eec7f1e8dc7d.js.map",
+        "component---src-pages-404-js-1b99097883aebd88f783.js",
+        "component---src-pages-404-js-1b99097883aebd88f783.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-index-js": {
+      "chunks": [0, 1, 4],
+      "assets": [
+        "styles.cf4692bf138f4b580d6a.css",
+        "styles-0dd9b16d06f2e4f550cc.js",
+        "styles-0dd9b16d06f2e4f550cc.js.map",
+        "e50e9c162871c1d91fba5ce567a5656e16dc6783-6a2f9d81eec7f1e8dc7d.js",
+        "e50e9c162871c1d91fba5ce567a5656e16dc6783-6a2f9d81eec7f1e8dc7d.js.map",
+        "component---src-pages-index-js-dc431b830cdcfe189cfa.js",
+        "component---src-pages-index-js-dc431b830cdcfe189cfa.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "assetsByChunkName": {
+    "app": [
+      "webpack-runtime-73cb50aa52a6e53f7e52.js",
+      "styles.cf4692bf138f4b580d6a.css",
+      "styles-0dd9b16d06f2e4f550cc.js",
+      "framework-c88d07efb40e009babfb.js",
+      "app-7e69c47eb6bc010deca6.js"
+    ],
+    "component---src-pages-404-js": [
+      "styles.cf4692bf138f4b580d6a.css",
+      "styles-0dd9b16d06f2e4f550cc.js",
+      "e50e9c162871c1d91fba5ce567a5656e16dc6783-6a2f9d81eec7f1e8dc7d.js",
+      "component---src-pages-404-js-1b99097883aebd88f783.js"
+    ],
+    "component---src-pages-index-js": [
+      "styles.cf4692bf138f4b580d6a.css",
+      "styles-0dd9b16d06f2e4f550cc.js",
+      "e50e9c162871c1d91fba5ce567a5656e16dc6783-6a2f9d81eec7f1e8dc7d.js",
+      "component---src-pages-index-js-dc431b830cdcfe189cfa.js"
+    ]
+  }
+}
