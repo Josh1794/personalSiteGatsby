@@ -10,6 +10,9 @@ const Splash = () => (
           {data.main.description}
         </h3>
       </div>
+      <section>
+        <div class="skewed"></div>
+      </section>
     </div>
   </div>
 )
