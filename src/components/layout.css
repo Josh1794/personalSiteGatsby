@@ -4,7 +4,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  background-color: #000;
+  background-color: #333;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -69,7 +69,8 @@ h1 {
   background: gray;
   margin-bottom: 10px;
   min-width: 100vw;
-  position: sticky;
+  position: fixed;
+  opacity: 70%;
 }
 .subNav {
   display: flex;
@@ -127,18 +128,33 @@ h1 {
   height: 100%;
   background: gray;
   z-index: -1;
-  transform: skewY(-4deg);
-  transform-origin: top left;
+  /* transform: skewY(-4deg);
+  transform-origin: top left; */
+  border-bottom-color: white;
+  border-bottom-width: 1;
+  border-bottom-style: solid;
+  background-image: url(../images/header-background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.aboutPage {
+  margin-top: 5%;
+  min-height: 100vh;
   border-bottom-color: white;
   border-bottom-width: 1;
   border-bottom-style: solid;
 }
 
-.aboutPage {
-  min-height: 100vh;
-  border-bottom-color: white;
-  border-bottom-width: 1;
-  border-bottom-style: solid;
+.aboutHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profilePic {
+  border-radius: 50%;
+  margin-left: 10px;
 }
 
 /* #aboutAnimation {

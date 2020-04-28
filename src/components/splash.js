@@ -2,7 +2,7 @@ import React from "react"
 import SVGTitle from "./titleSVG"
 import data from "./data.json"
 const Splash = () => (
-  <div class="splash">
+  <div class="splash" id="splash">
     <div class="headerPage">
       <div id="splashAnimation" data-sal="slide-up">
         <SVGTitle />

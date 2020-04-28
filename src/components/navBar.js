@@ -4,7 +4,7 @@ import React from "react"
 const Navbar = () => (
   <header id="navBar" class="navBar">
     <div class="subNav">
-      <Link class="Links" to="/#navBar">
+      <Link class="Links" to="/#splash">
         Joshua Grossman
       </Link>
       <Link class="Links" to="/#aboutPage">

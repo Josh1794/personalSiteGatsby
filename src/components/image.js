@@ -30,7 +30,7 @@ const Image = () => {
     <Img
       fixed={data.placeholderImage.childImageSharp.fixed}
       alt="profilepic"
-      // style={{ borderradius: "50%" }}
+      className="profilePic"
     />
   )
 }
