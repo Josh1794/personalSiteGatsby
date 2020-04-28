@@ -70,7 +70,7 @@ h1 {
   margin-bottom: 10px;
   min-width: 100vw;
   position: fixed;
-  opacity: 80%;
+  /* opacity: 80%; */
   z-index: 1;
 }
 .subNav {
