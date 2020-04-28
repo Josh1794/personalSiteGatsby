@@ -104,6 +104,7 @@ h1 {
   max-width: 100%;
 }
 .headerPage {
+  z-index: 0;
   color: whitesmoke;
   min-height: 100vh;
   display: flex;
