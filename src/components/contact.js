@@ -41,9 +41,10 @@ export default function Contact() {
         <br />
         <p>
           <a
+            target="_blank"
+            rel="noreferrer noopener"
             class="resumeButton"
-            href="../../public/Joshua Grossman's Resume (Alt Format).pdf"
-            download
+            href="https://drive.google.com/file/d/1YtYsYM6FEHskBKUzoZZK8_qgTt1q-NzJ/view?usp=sharing"
             aria-label="My Resume "
           >
             My Resume <i class="fas fa-download"></i>
