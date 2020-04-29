@@ -44,7 +44,7 @@ export default function Contact() {
               target="_blank"
               rel="noreferrer noopener"
               class="resumeButton"
-              href="https://drive.google.com/file/d/1YtYsYM6FEHskBKUzoZZK8_qgTt1q-NzJ/view?usp=sharing"
+              href="https://drive.google.com/open?id=1ziiW5NfAuwIiLqVbRas_qrdixoK8Wshu"
               aria-label="My Resume "
             >
               My Resume <i class="fas fa-download"></i>
