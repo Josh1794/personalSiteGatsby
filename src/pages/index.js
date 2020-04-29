@@ -9,7 +9,7 @@ import SEO from "../components/seo"
 export default function IndexPage() {
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Joshua Grossman" />
       <Splash />
       <About />
       <Portfolio />
