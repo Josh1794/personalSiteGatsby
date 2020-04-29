@@ -21,7 +21,7 @@ export default function Contact() {
 
   return (
     <div id="contactPage" class="contactPage">
-      <h1>Contact Details</h1>
+      <h2>Contact Details</h2>
       <div class="contactInfo">
         <p className="address">
           <h4>Name:</h4>

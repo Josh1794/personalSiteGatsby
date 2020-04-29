@@ -21,9 +21,9 @@ export default function About() {
   return (
     <div id="aboutPage" class="aboutPage">
       {/* <div data-sal="fade" id="aboutAnimation"> */}
-      <h1 class="aboutHeader">
+      <h2 class="aboutHeader">
         About me <Image />
-      </h1>
+      </h2>
       <body>{bio}</body>
       <br />
 

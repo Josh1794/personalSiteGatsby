@@ -2,7 +2,7 @@ import React from "react"
 
 const Portfolio = () => (
   <div id="portfolioPage" class="portfolioPage">
-    <h1>Portfolio Section</h1>
+    <h2>Portfolio Section</h2>
   </div>
 )
 

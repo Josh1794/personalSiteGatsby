@@ -1,13 +1,14 @@
 import React from "react"
 
 const SVGTitle = () => (
-  <h1 class="responsive-headline" title>
+  <div class="responsive-headline" title>
     <svg
       id="title"
       height="110"
       viewBox="0 0 982 110"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      focusable="false"
     >
       <path
         d="M52.1133 9.6875H63.4219V70.0977C63.4219 78.2617 60.9609 84.6484 56.0391 89.2578C51.1562 93.8672 44.6328 96.1719 36.4688 96.1719C27.9922 96.1719 21.3906 94.0039 16.6641 89.668C11.9375 85.332 9.57422 79.2578 9.57422 71.4453H20.8242C20.8242 76.3281 22.1523 80.1367 24.8086 82.8711C27.5039 85.6055 31.3906 86.9727 36.4688 86.9727C41.1172 86.9727 44.8672 85.5078 47.7188 82.5781C50.6094 79.6484 52.0742 75.5469 52.1133 70.2734V9.6875Z"
@@ -94,7 +95,7 @@ const SVGTitle = () => (
         mask="url(#path-1-outside-1)"
       />
     </svg>
-  </h1>
+  </div>
 )
 
 export default SVGTitle
