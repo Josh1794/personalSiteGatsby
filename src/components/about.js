@@ -1,18 +1,33 @@
 import React from "react"
 import Image from "./image"
-import data from "./data.json"
+import { useStaticQuery, graphql } from "gatsby"
 
 export default function About() {
+  const { site } = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            bio
+            tech
+          }
+        }
+      }
+    `
+  )
+  const bio = site.siteMetadata.bio
+  const tech = site.siteMetadata.tech
+
   return (
     <div id="aboutPage" class="aboutPage">
       {/* <div data-sal="fade" id="aboutAnimation"> */}
       <h1 class="aboutHeader">
         About me <Image />
       </h1>
-      <body>{data.main.bio}</body>
+      <body>{bio}</body>
       <br />
 
-      <body>{data.main.tech}</body>
+      <body>{tech}</body>
       <br />
       <ul>
         <li>JavaScript (ES6+)</li>

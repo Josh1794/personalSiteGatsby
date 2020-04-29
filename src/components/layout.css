@@ -84,7 +84,7 @@ h1 {
 }
 .Links {
   align-self: center;
-  color: black;
+  color: white;
   text-decoration: none;
   background: none;
   border: none;
@@ -105,6 +105,19 @@ h1 {
   align-items: center;
   max-width: 100%;
 }
+
+#title path {
+  stroke-dasharray: 600;
+  stroke-dashoffset: 600;
+  animation: dash 3s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
 .headerPage {
   z-index: 0;
   color: whitesmoke;
@@ -117,6 +130,23 @@ h1 {
 }
 .subTitle {
   font-size: large;
+}
+.social {
+  margin-top: 20px;
+  font-size: 25pt;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.social a {
+  color: white;
+}
+.social i {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.social i:hover {
+  color: orange;
 }
 #splashAnimation {
   --sal-duration: 3s;
@@ -132,11 +162,10 @@ h1 {
   height: 100%;
   background: gray;
   z-index: -1;
-  /* transform: skewY(-4deg);
-  transform-origin: top left; */
-  border-bottom-color: white;
+
+  /* border-bottom-color: white;
   border-bottom-width: 1;
-  border-bottom-style: solid;
+  border-bottom-style: solid; */
   background-image: url(../images/header-background.jpg);
   background-position: center;
   background-size: cover;
@@ -145,9 +174,9 @@ h1 {
 .aboutPage {
   margin-top: 5%;
   min-height: 100vh;
-  border-bottom-color: white;
+  /* border-bottom-color: white;
   border-bottom-width: 1;
-  border-bottom-style: solid;
+  border-bottom-style: solid; */
 }
 
 .aboutHeader {
@@ -173,9 +202,9 @@ h1 {
 .portfolioPage {
   padding-top: 10px;
   min-height: 100vh;
-  border-bottom-color: white;
+  /* border-bottom-color: white;
   border-bottom-width: 1;
-  border-bottom-style: solid;
+  border-bottom-style: solid; */
 }
 
 .contactPage .button {
@@ -197,14 +226,14 @@ h1 {
 .contactPage {
   padding-top: 10px;
   min-height: 100vh;
-  border-bottom-color: white;
+  /* border-bottom-color: white;
   border-bottom-width: 1;
-  border-bottom-style: solid;
+  border-bottom-style: solid; */
 }
 
 .resumeButton {
-  padding: 5px;
-  background-color: #444;
+  padding: 15px;
+  background-color: #666;
   text-decoration: none;
   color: white;
   border-radius: 0.25rem;
@@ -219,18 +248,6 @@ h1 {
 }
 .emailLink:hover {
   color: orange;
-}
-
-#title path {
-  stroke-dasharray: 600;
-  stroke-dashoffset: 600;
-  animation: dash 3s linear forwards;
-}
-
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0;
-  }
 }
 
 mark {
