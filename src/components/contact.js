@@ -21,6 +21,9 @@ export default function Contact() {
 
   return (
     <div id="contactPage" class="contactPage">
+      <br />
+      <br />
+
       <h2>Contact Details</h2>
       <div class="contactInfo">
         <p className="address">

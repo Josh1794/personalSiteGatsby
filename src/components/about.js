@@ -20,7 +20,9 @@ export default function About() {
 
   return (
     <div id="aboutPage" class="aboutPage">
-      {/* <div data-sal="fade" id="aboutAnimation"> */}
+      <br />
+      <br />
+
       <h2 class="aboutHeader">
         About me <Image />
       </h2>
@@ -41,6 +43,7 @@ export default function About() {
         <li>Sequelize.js</li>
         <li>PostgreSQL</li>
       </ul>
+      {/* <div data-sal="fade" id="aboutAnimation"> */}
       {/* </div> */}
     </div>
   )

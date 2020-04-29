@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Navbar from "./navBar"
+import Footer from "./footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -22,19 +23,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            borderTopColor: "black",
-            borderTopStyle: "solid",
-            borderTopWidth: 1,
-          }}
-        >
-          <br />© {new Date().getFullYear()}, Built with
-          {` `}
-          <a style={{ color: "white" }} href="https://www.gatsbyjs.org">
-            Gatsby
-          </a>
-        </footer>
+        <Footer />
       </div>
     </>
   )
