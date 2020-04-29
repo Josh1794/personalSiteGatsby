@@ -24,13 +24,13 @@ export default function Contact() {
       <h2>Contact Details</h2>
       <div class="contactInfo">
         <p className="address">
-          <h4>Name:</h4>
-          <h5>{name}</h5>
+          <h3>Name:</h3>
+          <h4>{name}</h4>
           <br />
-          <h4>Phone:</h4>
-          <h5>{phone}</h5>
+          <h3>Phone:</h3>
+          <h4>{phone}</h4>
           <br />
-          <h4>Email:</h4>
+          <h3>Email:</h3>
           <a class="emailLink" href="mailto:josh1794@gmail.com">
             {email}
           </a>
@@ -41,6 +41,7 @@ export default function Contact() {
             class="resumeButton"
             href="../../public/Joshua Grossman's Resume (Alt Format).pdf"
             download
+            aria-label="My Resume "
           >
             My Resume <i class="fas fa-download"></i>
           </a>

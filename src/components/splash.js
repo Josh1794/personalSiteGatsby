@@ -24,17 +24,26 @@ export default function Splash() {
           <h3 class="subTitle" align="center">
             {subTitle}
             <div class="social">
-              <a href="https://www.linkedin.com/in/joshua-grossman17/">
+              <a
+                aria-label="Linkedin Profile"
+                href="https://www.linkedin.com/in/joshua-grossman17/"
+              >
                 <i class="fab fa-linkedin-in"></i>
               </a>
-              <a href="https://github.com/Josh1794">
+              <a aria-label="Github Profile" href="https://github.com/Josh1794">
                 <i class="fab fa-github"></i>
               </a>
-              <a href="https://stackoverflow.com/users/12751027/josh">
+              <a
+                aria-label="Stack Overflow Profile"
+                href="https://stackoverflow.com/users/12751027/josh"
+              >
                 <i class="fab fa-stack-overflow"></i>
               </a>
-              <a href="https://twitter.com/Coding_Ginger">
-                <i class="fab fa-twitter"></i>
+              <a
+                aria-label="Twitter Profile"
+                href="https://twitter.com/Coding_Ginger"
+              >
+                <i aria-hidden="false" class="fab fa-twitter"></i>
               </a>
             </div>
           </h3>
