@@ -21,7 +21,9 @@ const Portfolio = () => (
             rel="noreferrer noopener"
           >
             <Cart />
-            <h6 class="portfolioSubTitle">E-Commerce-Commerce</h6>
+            <div class="projectSubsection">
+              <h6 class="portfolioSubTitle">E-Commerce-Commerce</h6>
+            </div>
           </a>
           <a
             target="_blank"
@@ -30,7 +32,9 @@ const Portfolio = () => (
             rel="noreferrer noopener"
           >
             <Sensor />
-            <h6 class="portfolioSubTitle">Sensors App</h6>
+            <div class="projectSubsection">
+              <h6 class="portfolioSubTitle">Sensors App</h6>
+            </div>
           </a>
           <a
             target="_blank"
@@ -39,7 +43,9 @@ const Portfolio = () => (
             rel="noreferrer noopener"
           >
             <YBR />
-            <h6 class="portfolioSubTitle">Yellow Brick Road</h6>
+            <div class="projectSubsection">
+              <h6 class="portfolioSubTitle">Yellow Brick Road</h6>
+            </div>
           </a>
           <a
             target="_blank"
@@ -48,7 +54,9 @@ const Portfolio = () => (
             rel="noreferrer noopener"
           >
             <Weather />
-            <h6 class="portfolioSubTitle">Weather App</h6>
+            <div class="projectSubsection">
+              <h6 class="portfolioSubTitle">Weather App</h6>
+            </div>
           </a>
           <a
             target="_blank"
@@ -57,7 +65,9 @@ const Portfolio = () => (
             rel="noreferrer noopener"
           >
             <Recipe />
-            <h6 class="portfolioSubTitle">Recipe Book</h6>
+            <div class="projectSubsection">
+              <h6 class="portfolioSubTitle">Recipe Book</h6>
+            </div>
           </a>
         </div>
       </div>

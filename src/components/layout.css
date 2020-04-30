@@ -5,6 +5,7 @@ html {
 }
 body {
   background-color: #333;
+  background-image: url("../images/42ad236a.png");
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -116,6 +117,7 @@ h1 {
   stroke-dasharray: 600;
   stroke-dashoffset: 600;
   animation: dash 3s linear forwards;
+  text-shadow: 5px 5px 8px black;
 }
 
 @keyframes dash {
@@ -208,7 +210,6 @@ h1 {
 .portfolioPage {
   padding-top: 10px;
   min-height: 100vh;
-
   /* border-bottom-color: white;
   border-bottom-width: 1;
   border-bottom-style: solid; */
@@ -219,24 +220,32 @@ h1 {
   flex-direction: row;
   flex: 1;
   align-content: center;
-  justify-content: center;
-  justify-content: space-around;
 }
 
 .projects {
-  width: 175px;
+  width: 250px;
+  margin-left: 5px;
+  margin-right: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   background-color: lightgrey;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 0.3em;
   text-decoration: none;
   color: black;
+  text-align: center;
 }
 .projects:hover {
   background-color: orange;
   color: white;
+  box-shadow: 8px 8px 8px black;
+}
+
+.projectSubsection {
+  margin-top: 10px;
 }
 
 .contactPage .button {
@@ -259,14 +268,11 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-shadow: 5px 5px 8px black;
 }
 .contactPage {
   padding-top: 10px;
   min-height: 100vh;
-
-  /* border-bottom-color: white;
-  border-bottom-width: 1;
-  border-bottom-style: solid; */
 }
 
 .emailLink {

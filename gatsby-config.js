@@ -10,7 +10,7 @@ module.exports = {
       "I'm a Fullstack Software Engineer with a background in corporate sustainability and sustainable finance. I create well designed and intuitive products to help make people's lives better and easier.",
     occupation: "Fullstack Software Engineer",
     name: "Joshua Grossman",
-    email: "josh1794@gmail.com",
+    email: "Josh1794@gmail.com",
     phone: "516-776-4357",
     resumedownload:
       "https://drive.google.com/file/d/1YtYsYM6FEHskBKUzoZZK8_qgTt1q-NzJ/view?usp=sharing",
