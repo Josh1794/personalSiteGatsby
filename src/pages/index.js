@@ -5,6 +5,7 @@ import About from "../components/about"
 import Portfolio from "../components/portfolio"
 import Contact from "../components/contact"
 import SEO from "../components/seo"
+import Skills from "../components/skills"
 
 export default function IndexPage() {
   return (
@@ -12,6 +13,7 @@ export default function IndexPage() {
       <SEO title="Joshua Grossman" />
       <Splash />
       <About />
+      <Skills />
       <Portfolio />
       <Contact />
     </Layout>
