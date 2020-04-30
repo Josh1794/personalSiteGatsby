@@ -169,10 +169,6 @@ h1 {
   height: 100%;
   background: gray;
   z-index: -1;
-
-  /* border-bottom-color: white;
-  border-bottom-width: 1;
-  border-bottom-style: solid; */
   background-image: url(../images/header-background.jpg);
   background-position: center;
   background-size: cover;
@@ -181,9 +177,9 @@ h1 {
 .aboutPage {
   margin-top: 5%;
   min-height: 100vh;
-  /* border-bottom-color: white;
+  border-bottom-color: white;
   border-bottom-width: 1;
-  border-bottom-style: solid; */
+  border-bottom-style: solid;
 }
 
 .aboutHeader {
@@ -192,52 +188,83 @@ h1 {
   align-items: center;
 }
 
+.skillsPage {
+  margin-top: 5%;
+  min-height: 100vh;
+  border-bottom-color: white;
+  border-bottom-width: 1;
+  border-bottom-style: solid;
+}
+
+.skillsSection {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.skills {
+  width: 100px;
+  height: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  box-shadow: 3px 3px 8px black;
+  border-radius: 0.25em;
+}
+
 .profilePic {
   border-radius: 50%;
   margin-left: 10px;
   z-index: -1;
 }
 
-/* #aboutAnimation {
-  --sal-duration: 3s;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  max-width: 100%;
-} */
-
 .portfolioPage {
   padding-top: 10px;
   min-height: 100vh;
-  /* border-bottom-color: white;
+  border-bottom-color: white;
   border-bottom-width: 1;
-  border-bottom-style: solid; */
+  border-bottom-style: solid;
 }
+
 .portfolioProjects {
   margin-top: 10%;
   display: flex;
   flex-direction: row;
   flex: 1;
+  justify-content: center;
   align-content: center;
-}
-
-.skillsPage {
-  margin-top: 5%;
-  min-height: 100vh;
+  flex-wrap: wrap;
 }
 
 .projects {
   width: 250px;
+  height: 250px;
   margin-left: 5px;
   margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  background-color: lightgrey;
+  justify-content: center;
+  background-color: white;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 0.3em;
   text-decoration: none;
   color: black;
   text-align: center;
@@ -252,6 +279,12 @@ h1 {
   margin-top: 10px;
 }
 
+.contactPage {
+  border-bottom-color: white;
+  border-bottom-width: 1;
+  border-bottom-style: solid;
+}
+
 .contactPage .button {
   margin-top: 6px;
   background: #444;
@@ -262,17 +295,16 @@ h1 {
 }
 .contactInfo {
   width: 50%;
-  color: white;
-  background-color: #888;
+  color: black;
+  background-color: white;
   margin-left: 25%;
-  border-radius: 0.35em;
   padding: 20px;
   margin-top: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 5px 5px 8px black;
+  box-shadow: 3px 3px 8px black;
 }
 .contactPage {
   padding-top: 10px;
@@ -280,7 +312,7 @@ h1 {
 }
 
 .emailLink {
-  color: white;
+  color: black;
 }
 .emailLink:hover {
   color: orange;

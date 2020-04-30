@@ -1,5 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import SkillCards from "./skillsCard"
 
 export default function Skills() {
   const { site } = useStaticQuery(
@@ -21,7 +22,8 @@ export default function Skills() {
       <h2 class="skillsHeader">Skills</h2>
       <body>{tech}</body>
       <br />
-      <ul>
+      <SkillCards />
+      {/* <ul>
         <li>JavaScript (ES6+)</li>
         <li>ReactJS</li>
         <li>React-Native</li>
@@ -32,7 +34,7 @@ export default function Skills() {
         <li>Express.js</li>
         <li>Sequelize.js</li>
         <li>PostgreSQL</li>
-      </ul>
+      </ul> */}
     </div>
   )
 }
