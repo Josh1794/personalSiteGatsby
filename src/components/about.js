@@ -19,7 +19,15 @@ export default function About() {
   const tech = site.siteMetadata.tech
 
   return (
-    <div id="aboutPage" class="aboutPage">
+    <div
+      id="aboutPage"
+      class="aboutPage"
+      style={{
+        borderBottomWidth: 1,
+        borderBottomColor: "White",
+        borderBottomStyle: "solid",
+      }}
+    >
       <br />
       <br />
       <h2 class="aboutHeader">

@@ -20,7 +20,15 @@ export default function Contact() {
   const email = site.siteMetadata.email
 
   return (
-    <div id="contactPage" class="contactPage">
+    <div
+      id="contactPage"
+      class="contactPage"
+      style={{
+        borderBottomWidth: 1,
+        borderBottomColor: "White",
+        borderBottomStyle: "solid",
+      }}
+    >
       <br />
       <br />
       <div>

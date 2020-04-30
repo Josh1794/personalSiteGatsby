@@ -2,7 +2,15 @@ import React from "react"
 import Cards from "./cards"
 
 const Portfolio = () => (
-  <div id="portfolioPage" class="portfolioPage">
+  <div
+    id="portfolioPage"
+    class="portfolioPage"
+    style={{
+      borderBottomWidth: 1,
+      borderBottomColor: "White",
+      borderBottomStyle: "solid",
+    }}
+  >
     <br />
     <br />
     <div>
