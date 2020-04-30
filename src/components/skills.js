@@ -16,7 +16,15 @@ export default function Skills() {
   )
   const tech = site.siteMetadata.tech
   return (
-    <div id="skillsPage" class="skillsPage">
+    <div
+      id="skillsPage"
+      class="skillsPage"
+      style={{
+        borderBottomWidth: 1,
+        borderBottomColor: "White",
+        borderBottomStyle: "solid",
+      }}
+    >
       <br />
       <br />
       <h2 class="skillsHeader">Skills</h2>
