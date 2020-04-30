@@ -27,7 +27,7 @@ export default function About() {
         About me <Image />
       </h2>
       <body>{bio}</body>
-      <br />
+      {/* <br />
 
       <body>{tech}</body>
       <br />
@@ -42,7 +42,7 @@ export default function About() {
         <li>Express.js</li>
         <li>Sequelize.js</li>
         <li>PostgreSQL</li>
-      </ul>
+      </ul> */}
       {/* <div data-sal="fade" id="aboutAnimation"> */}
       {/* </div> */}
     </div>
