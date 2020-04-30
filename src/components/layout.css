@@ -177,9 +177,6 @@ h1 {
 .aboutPage {
   margin-top: 5%;
   min-height: 100vh;
-  border-bottom-color: white;
-  border-bottom-width: 1;
-  border-bottom-style: solid;
 }
 
 .aboutHeader {
@@ -191,9 +188,9 @@ h1 {
 .skillsPage {
   margin-top: 5%;
   min-height: 100vh;
-  border-bottom-color: white;
-  border-bottom-width: 1;
-  border-bottom-style: solid;
+  border-top-color: white;
+  border-top-width: 1;
+  border-top-style: solid;
 }
 
 .skillsSection {
@@ -236,9 +233,9 @@ h1 {
 .portfolioPage {
   padding-top: 10px;
   min-height: 100vh;
-  border-bottom-color: white;
-  border-bottom-width: 1;
-  border-bottom-style: solid;
+  border-top-color: white;
+  border-top-width: 1;
+  border-top-style: solid;
 }
 
 .portfolioProjects {
@@ -280,9 +277,9 @@ h1 {
 }
 
 .contactPage {
-  border-bottom-color: white;
-  border-bottom-width: 1;
-  border-bottom-style: solid;
+  border-top-color: white;
+  border-top-width: 1;
+  border-top-style: solid;
 }
 
 .contactPage .button {
