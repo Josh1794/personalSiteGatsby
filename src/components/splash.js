@@ -1,6 +1,7 @@
 import React from "react"
 import SVGTitle from "./titleSVG"
 import SocialIcons from "./socialIcons"
+import HeaderBackground from "./headerBackground"
 import { useStaticQuery, graphql } from "gatsby"
 
 export default function Splash() {
@@ -18,16 +19,7 @@ export default function Splash() {
   const subTitle = site.siteMetadata.subTitle
 
   return (
-    <div
-      role="banner"
-      class="splash"
-      id="splash"
-      // style={{
-      //   borderBottomWidth: 1,
-      //   borderBottomColor: "White",
-      //   borderBottomStyle: "solid",
-      // }}
-    >
+    <div role="banner" class="splash" id="splash">
       <div class="headerPage">
         <div id="splashAnimation" data-sal="slide-up">
           <SVGTitle />
@@ -39,7 +31,9 @@ export default function Splash() {
           </h3>
         </div>
         <section>
-          <div class="skewed"></div>
+          <div class="skewed">
+            <HeaderBackground />
+          </div>
         </section>
       </div>
     </div>
