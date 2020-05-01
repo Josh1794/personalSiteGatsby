@@ -32,9 +32,7 @@ export default function About() {
         <h2 class="pageHeader">
           About me <Image />
         </h2>
-        <body data-sal="slide-right" id="splashAnimation" class="aboutText">
-          {bio}
-        </body>
+        <body class="aboutText">{bio}</body>
       </div>
     </div>
   )
