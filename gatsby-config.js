@@ -5,7 +5,7 @@ module.exports = {
     author: `Joshua Grossman`,
     bio:
       "I received my Masters in Sustainability Management at Columbia University in 2017 and worked in Sustainable Finance and Renewable Energy. Recently, I decided to learn to code in order to challenge myself intellectually and to expand my skillset. I chose to attend Fullstack Academy because of its rigorous and highly regarded programs. I am currently looking for a fulltime software engineering position where I can continue to grow and improve as a developer. I hope to incorporate my passion for sustainability into my development work. Feel free to check out some of my sample projects linked below or reach out to me on LinkeIn or with my contact information. I also offer consulting and web development services as a freelance developer. I look forward to hearing from you!",
-    tech: " Here's a few technologies I've been working with recently:",
+    tech: " Here's a few technologies I love to work with:",
     subTitle:
       "I'm a Fullstack Software Engineer with a background in corporate sustainability and sustainable finance. I create well designed and intuitive products to help make people's lives better and easier.",
     occupation: "Fullstack Software Engineer",

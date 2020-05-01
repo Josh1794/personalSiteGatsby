@@ -9,14 +9,12 @@ export default function About() {
         site {
           siteMetadata {
             bio
-            tech
           }
         }
       }
     `
   )
   const bio = site.siteMetadata.bio
-  const tech = site.siteMetadata.tech
 
   return (
     <div
