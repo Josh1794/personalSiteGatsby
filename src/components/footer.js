@@ -1,6 +1,5 @@
 import React from "react"
 import SocialIcons from "./socialIcons"
-
 import scrollTo from "gatsby-plugin-smoothscroll"
 
 export default function Footer() {
