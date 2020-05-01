@@ -27,22 +27,12 @@ export default function Skills() {
     >
       <br />
       <br />
-      <h2 class="skillsHeader">Skills</h2>
-      <body>{tech}</body>
+      <h2 class="pageHeader">Skills</h2>
+      <body class="pageSubTitle">{tech}</body>
       <br />
-      <SkillCards />
-      {/* <ul>
-        <li>JavaScript (ES6+)</li>
-        <li>ReactJS</li>
-        <li>React-Native</li>
-        <li>Gatsby.js</li>
-        <li>Next.js</li>
-        <li>Redux.js</li>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>Sequelize.js</li>
-        <li>PostgreSQL</li>
-      </ul> */}
+      <div class="skillCards">
+        <SkillCards />
+      </div>
     </div>
   )
 }

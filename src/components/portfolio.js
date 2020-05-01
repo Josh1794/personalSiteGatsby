@@ -1,5 +1,5 @@
 import React from "react"
-import Cards from "./cards"
+import Cards from "./portfolioCards"
 
 const Portfolio = () => (
   <div
@@ -14,9 +14,11 @@ const Portfolio = () => (
     <br />
     <br />
     <div>
-      <h2>My Portfolio</h2>
+      <h2 class="pageHeader">My Portfolio</h2>
       <div>
-        <h3 align="center">Check out some of my projects</h3>
+        <h3 class="pageSubTitle" align="center">
+          Check out some of my projects
+        </h3>
         <Cards />
       </div>
     </div>

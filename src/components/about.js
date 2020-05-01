@@ -28,10 +28,14 @@ export default function About() {
     >
       <br />
       <br />
-      <h2 class="aboutHeader">
-        About me <Image />
-      </h2>
-      <body>{bio}</body>
+      <div>
+        <h2 class="pageHeader">
+          About me <Image />
+        </h2>
+        <body data-sal="slide-right" id="splashAnimation" class="aboutText">
+          {bio}
+        </body>
+      </div>
     </div>
   )
 }

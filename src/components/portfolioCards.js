@@ -14,6 +14,8 @@ export default function Cards() {
           class="projects"
           href="https://github.com/thunky-monks/graceshopper"
           rel="noreferrer noopener"
+          data-sal="fade"
+          id="splashAnimation"
         >
           <Cart />
           <div class="projectSubsection">
@@ -25,6 +27,8 @@ export default function Cards() {
           class="projects"
           href="https://github.com/Josh1794/Sensor-app"
           rel="noreferrer noopener"
+          data-sal="fade"
+          id="splashAnimation"
         >
           <Sensor />
           <div class="projectSubsection">
@@ -36,6 +40,8 @@ export default function Cards() {
           class="projects"
           href="https://github.com/Thunkaroos/YellowBrickRoad"
           rel="noreferrer noopener"
+          data-sal="fade"
+          id="splashAnimation"
         >
           <YBR />
           <div class="projectSubsection">
@@ -47,6 +53,8 @@ export default function Cards() {
           class="projects"
           href="https://github.com/Josh1794/myWeatherApp"
           rel="noreferrer noopener"
+          data-sal="fade"
+          id="splashAnimation"
         >
           <Weather />
           <div class="projectSubsection">
@@ -58,6 +66,8 @@ export default function Cards() {
           class="projects"
           href="https://github.com/Josh1794/recipeBook"
           rel="noreferrer noopener"
+          data-sal="fade"
+          id="splashAnimation"
         >
           <Recipe />
           <div class="projectSubsection">

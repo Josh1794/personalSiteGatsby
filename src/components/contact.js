@@ -32,16 +32,16 @@ export default function Contact() {
       <br />
       <br />
       <div>
-        <h2>Contact Details</h2>
+        <h2 class="pageHeader">Contact Details</h2>
         <div class="contactInfo">
           <p className="address">
-            <h3>Name:</h3>
+            <h4>Name:</h4>
             <h4>{name}</h4>
             <br />
-            <h3>Phone:</h3>
+            <h4>Phone:</h4>
             <h4>{phone}</h4>
             <br />
-            <h3>Email:</h3>
+            <h4>Email:</h4>
             <a class="emailLink" href="mailto:josh1794@gmail.com">
               {email}
             </a>
