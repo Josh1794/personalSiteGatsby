@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Navbar from "./navBar"
 import Footer from "./footer"
-import "./layout.css"
+import "../styles.scss"
 
 const Layout = ({ children }) => {
   return (
