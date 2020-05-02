@@ -5,4 +5,4 @@ My Personal Website
 </h1>
 <h2 align='center'>Built with Gatsby.JS</h2>
 
-## All Built from scratch using React and Gatsby
+### All Built from scratch using React and Gatsby
