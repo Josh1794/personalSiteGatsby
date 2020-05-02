@@ -4,8 +4,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  background-color: #333;
-  background-image: url("../images/42ad236a.png");
+  background: #444;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
