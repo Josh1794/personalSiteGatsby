@@ -1,3 +1,5 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 $light-theme: #fff;
 $dark-theme: #444;
 
@@ -341,6 +343,7 @@ h1 {
 }
 .resumeButton:hover {
   background-color: orange;
+  text-decoration: none;
   color: black;
 }
 .socialFooter {
