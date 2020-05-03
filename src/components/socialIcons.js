@@ -1,4 +1,5 @@
 import React from "react"
+
 export default function SocialIcons() {
   return (
     <div>
@@ -19,20 +20,20 @@ export default function SocialIcons() {
         <i class="fab fa-github"></i>
       </a>
       <a
-        aria-label="Stack Overflow Profile"
-        href="https://stackoverflow.com/users/12751027/josh"
-        target="_blank"
-        rel="noreferrer noopener"
-      >
-        <i class="fab fa-stack-overflow"></i>
-      </a>
-      <a
         aria-label="Twitter Profile"
         href="https://twitter.com/Coding_Ginger"
         target="_blank"
         rel="noreferrer noopener"
       >
         <i aria-hidden="false" class="fab fa-twitter"></i>
+      </a>
+      <a
+        aria-label="Stack Overflow Profile"
+        href="https://stackoverflow.com/users/12751027/josh"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <i class="fab fa-stack-overflow"></i>
       </a>
     </div>
   )
