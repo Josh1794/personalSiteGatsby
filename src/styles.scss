@@ -349,27 +349,22 @@ h1 {
   mix-blend-mode: normal;
 }
 .socialFooter {
+  a {
+    color: white;
+  }
+  i {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  i:hover {
+    color: orange;
+  }
   font-size: 20pt;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.socialFooter {
-  a {
-    color: white;
-  }
-}
-.socialFooter {
-  i {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
-.socialFooter {
-  i:hover {
-    color: orange;
-  }
-}
+
 .footerButton {
   margin-top: 5px;
   border-radius: 50%;
