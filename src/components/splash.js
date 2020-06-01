@@ -19,19 +19,19 @@ export default function Splash() {
   const subTitle = site.siteMetadata.subTitle
 
   return (
-    <div role="banner" class="splash" id="splash">
-      <div class="headerPage">
+    <div role="banner" className="splash" id="splash">
+      <div className="headerPage">
         <div id="splashAnimation" data-sal="slide-up">
           <SVGTitle />
-          <h3 class="subTitle" align="center">
+          <h3 className="subTitle" align="center">
             {subTitle}
-            <div class="social">
+            <div className="social">
               <SocialIcons />
             </div>
           </h3>
         </div>
         <section>
-          <div class="skewed">
+          <div className="skewed">
             <HeaderBackground />
           </div>
         </section>
