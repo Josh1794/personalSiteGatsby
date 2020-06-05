@@ -76,7 +76,7 @@ h1 {
   margin: 0.67em 0;
 }
 .navBar {
-  background: rgb(50, 50, 50);
+  background: $dark-theme;
   margin-bottom: 10px;
   min-width: 100vw;
   position: fixed;
@@ -173,7 +173,7 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgb(50, 50, 50);
+  background: $dark-theme;
   z-index: -1;
 }
 
@@ -298,7 +298,7 @@ h1 {
 
 .contactInfo {
   width: 50%;
-  color: rgb(50, 50, 50);
+  color: $dark-theme;
   background-color: white;
   margin-left: 25%;
   padding-top: 30px;
@@ -311,7 +311,7 @@ h1 {
 }
 
 .emailLink {
-  color: rgb(50, 50, 50);
+  color: $dark-theme;
 }
 .emailLink:hover {
   color: orange;
@@ -319,7 +319,7 @@ h1 {
 
 .resumeButton {
   padding: 10px;
-  background-color: rgb(50, 50, 50);
+  background-color: $dark-theme;
   text-decoration: none;
   color: white;
   border-radius: 0.25rem;
@@ -330,7 +330,7 @@ h1 {
 .resumeButton:hover {
   background-color: orange;
   text-decoration: none;
-  color: rgb(50, 50, 50);
+  color: $dark-theme;
   mix-blend-mode: normal;
 }
 .socialFooter {
@@ -356,7 +356,7 @@ h1 {
   height: 30px;
   width: 30px;
   color: white;
-  background-color: rgb(50, 50, 50);
+  background-color: $dark-theme;
   border-color: white;
   border-width: 2px;
   border-style: solid;
