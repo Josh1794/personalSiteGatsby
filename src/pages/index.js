@@ -11,7 +11,6 @@ export default function IndexPage() {
   return (
     <Layout>
       <SEO title="Joshua Grossman" />
-      <h1>My Personal Website</h1>
       <Splash />
       <About />
       <Skills />
