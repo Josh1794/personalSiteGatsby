@@ -4,6 +4,7 @@ import Sensor from "./portfolioImages/Sensor"
 import YBR from "./portfolioImages/ybr"
 import Weather from "./portfolioImages/weather"
 import Recipe from "./portfolioImages/recipe"
+import BLM from "./portfolioImages/blm"
 
 export default function Cards() {
   return (
@@ -72,6 +73,19 @@ export default function Cards() {
           <Recipe />
           <div class="projectSubsection">
             <h6 class="portfolioSubTitle">Recipe Book</h6>
+          </div>
+        </a>
+        <a
+          target="_blank"
+          class="projects"
+          href="https://github.com/Team-5-Data-Dashboard/Data-Dashboard"
+          rel="noreferrer noopener"
+          data-sal="fade"
+          id="splashAnimation"
+        >
+          <BLM />
+          <div class="projectSubsection">
+            <h6 class="portfolioSubTitle">BLM Data Dashboard</h6>
           </div>
         </a>
       </div>
