@@ -1,1 +1,71 @@
-{"errors":[],"warnings":[],"namedChunkGroups":{"app":{"chunks":[6,0,5,2],"assets":["webpack-runtime-6b8f59eb1a062b2f4118.js","webpack-runtime-6b8f59eb1a062b2f4118.js.map","styles.9a6785365590a2f1e094.css","styles-6b8affa5cc22cb60670e.js","styles-6b8affa5cc22cb60670e.js.map","framework-8ade979d0ea7a5c04f12.js","framework-8ade979d0ea7a5c04f12.js.map","app-2f657ac07b8c98d7546a.js","app-2f657ac07b8c98d7546a.js.map"],"children":{},"childAssets":{}},"component---src-pages-404-js":{"chunks":[0,1,3],"assets":["styles.9a6785365590a2f1e094.css","styles-6b8affa5cc22cb60670e.js","styles-6b8affa5cc22cb60670e.js.map","e50e9c162871c1d91fba5ce567a5656e16dc6783-89425ea8d67eee547213.js","e50e9c162871c1d91fba5ce567a5656e16dc6783-89425ea8d67eee547213.js.map","component---src-pages-404-js-b9bc0aacdf79c34fca2a.js","component---src-pages-404-js-b9bc0aacdf79c34fca2a.js.map"],"children":{},"childAssets":{}},"component---src-pages-index-js":{"chunks":[0,1,4],"assets":["styles.9a6785365590a2f1e094.css","styles-6b8affa5cc22cb60670e.js","styles-6b8affa5cc22cb60670e.js.map","e50e9c162871c1d91fba5ce567a5656e16dc6783-89425ea8d67eee547213.js","e50e9c162871c1d91fba5ce567a5656e16dc6783-89425ea8d67eee547213.js.map","component---src-pages-index-js-e8dfa949d4e542b2f58b.js","component---src-pages-index-js-e8dfa949d4e542b2f58b.js.map"],"children":{},"childAssets":{}}},"assetsByChunkName":{"app":["webpack-runtime-6b8f59eb1a062b2f4118.js","styles.9a6785365590a2f1e094.css","styles-6b8affa5cc22cb60670e.js","framework-8ade979d0ea7a5c04f12.js","app-2f657ac07b8c98d7546a.js"],"component---src-pages-404-js":["styles.9a6785365590a2f1e094.css","styles-6b8affa5cc22cb60670e.js","e50e9c162871c1d91fba5ce567a5656e16dc6783-89425ea8d67eee547213.js","component---src-pages-404-js-b9bc0aacdf79c34fca2a.js"],"component---src-pages-index-js":["styles.9a6785365590a2f1e094.css","styles-6b8affa5cc22cb60670e.js","e50e9c162871c1d91fba5ce567a5656e16dc6783-89425ea8d67eee547213.js","component---src-pages-index-js-e8dfa949d4e542b2f58b.js"]}}
+{
+  "errors": [],
+  "warnings": [],
+  "namedChunkGroups": {
+    "app": {
+      "chunks": [6, 0, 5, 2],
+      "assets": [
+        "webpack-runtime-6b8f59eb1a062b2f4118.js",
+        "webpack-runtime-6b8f59eb1a062b2f4118.js.map",
+        "styles.9a6785365590a2f1e094.css",
+        "styles-6b8affa5cc22cb60670e.js",
+        "styles-6b8affa5cc22cb60670e.js.map",
+        "framework-8ade979d0ea7a5c04f12.js",
+        "framework-8ade979d0ea7a5c04f12.js.map",
+        "app-2f657ac07b8c98d7546a.js",
+        "app-2f657ac07b8c98d7546a.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-404-js": {
+      "chunks": [0, 1, 3],
+      "assets": [
+        "styles.9a6785365590a2f1e094.css",
+        "styles-6b8affa5cc22cb60670e.js",
+        "styles-6b8affa5cc22cb60670e.js.map",
+        "e50e9c162871c1d91fba5ce567a5656e16dc6783-89425ea8d67eee547213.js",
+        "e50e9c162871c1d91fba5ce567a5656e16dc6783-89425ea8d67eee547213.js.map",
+        "component---src-pages-404-js-b9bc0aacdf79c34fca2a.js",
+        "component---src-pages-404-js-b9bc0aacdf79c34fca2a.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-index-js": {
+      "chunks": [0, 1, 4],
+      "assets": [
+        "styles.9a6785365590a2f1e094.css",
+        "styles-6b8affa5cc22cb60670e.js",
+        "styles-6b8affa5cc22cb60670e.js.map",
+        "e50e9c162871c1d91fba5ce567a5656e16dc6783-89425ea8d67eee547213.js",
+        "e50e9c162871c1d91fba5ce567a5656e16dc6783-89425ea8d67eee547213.js.map",
+        "component---src-pages-index-js-e8dfa949d4e542b2f58b.js",
+        "component---src-pages-index-js-e8dfa949d4e542b2f58b.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "assetsByChunkName": {
+    "app": [
+      "webpack-runtime-6b8f59eb1a062b2f4118.js",
+      "styles.9a6785365590a2f1e094.css",
+      "styles-6b8affa5cc22cb60670e.js",
+      "framework-8ade979d0ea7a5c04f12.js",
+      "app-2f657ac07b8c98d7546a.js"
+    ],
+    "component---src-pages-404-js": [
+      "styles.9a6785365590a2f1e094.css",
+      "styles-6b8affa5cc22cb60670e.js",
+      "e50e9c162871c1d91fba5ce567a5656e16dc6783-89425ea8d67eee547213.js",
+      "component---src-pages-404-js-b9bc0aacdf79c34fca2a.js"
+    ],
+    "component---src-pages-index-js": [
+      "styles.9a6785365590a2f1e094.css",
+      "styles-6b8affa5cc22cb60670e.js",
+      "e50e9c162871c1d91fba5ce567a5656e16dc6783-89425ea8d67eee547213.js",
+      "component---src-pages-index-js-e8dfa949d4e542b2f58b.js"
+    ]
+  }
+}
