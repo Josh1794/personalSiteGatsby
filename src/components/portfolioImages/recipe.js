@@ -16,9 +16,9 @@ import Img from "gatsby-image"
 const Recipe = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "recipe.png" }) {
+      placeholderImage: file(relativePath: { eq: "chefHat.png" }) {
         childImageSharp {
-          fixed(width: 70, height: 70) {
+          fixed(width: 100, height: 100) {
             ...GatsbyImageSharpFixed
           }
         }

@@ -16,9 +16,9 @@ import Img from "gatsby-image"
 const Sensor = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "sensor.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "sensor.png" }) {
         childImageSharp {
-          fixed(width: 70, height: 70) {
+          fixed(width: 100, height: 100) {
             ...GatsbyImageSharpFixed
           }
         }

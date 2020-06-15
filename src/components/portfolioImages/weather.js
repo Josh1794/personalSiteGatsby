@@ -16,9 +16,9 @@ import Img from "gatsby-image"
 const Weather = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "Weather-icon.png" }) {
+      placeholderImage: file(relativePath: { eq: "weather-icons.png" }) {
         childImageSharp {
-          fixed(width: 70, height: 70) {
+          fixed(width: 100, height: 100) {
             ...GatsbyImageSharpFixed
           }
         }

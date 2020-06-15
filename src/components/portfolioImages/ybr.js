@@ -18,7 +18,7 @@ const YBR = () => {
     query {
       placeholderImage: file(relativePath: { eq: "ybr.png" }) {
         childImageSharp {
-          fixed(width: 70, height: 70) {
+          fixed(width: 100, height: 100) {
             ...GatsbyImageSharpFixed
           }
         }
