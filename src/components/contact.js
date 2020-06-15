@@ -15,9 +15,7 @@ export default function Contact() {
       }
     `
   )
-  const name = site.siteMetadata.name
-  const phone = site.siteMetadata.phone
-  const email = site.siteMetadata.email
+  const { name, phone, email } = site.siteMetadata
 
   return (
     <div

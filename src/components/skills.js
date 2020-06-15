@@ -14,7 +14,7 @@ export default function Skills() {
       }
     `
   )
-  const tech = site.siteMetadata.tech
+  const { tech } = site.siteMetadata
   return (
     <div
       id="skillsPage"

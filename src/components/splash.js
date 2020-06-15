@@ -16,7 +16,7 @@ export default function Splash() {
       }
     `
   )
-  const subTitle = site.siteMetadata.subTitle
+  const { subTitle } = site.siteMetadata
 
   return (
     <div role="banner" className="splash" id="splash">
