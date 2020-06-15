@@ -14,7 +14,7 @@ export default function About() {
       }
     `
   )
-  const bio = site.siteMetadata.bio
+  const { bio } = site.siteMetadata
 
   return (
     <div
