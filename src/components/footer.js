@@ -19,13 +19,6 @@ export default function Footer() {
       <div class="socialFooter">
         <SocialIcons />
       </div>
-      <div>
-        <br />© {new Date().getFullYear()}, Built with
-        {` `}
-        <a style={{ color: "white" }} href="https://www.gatsbyjs.org">
-          Gatsby
-        </a>
-      </div>
     </footer>
   )
 }
