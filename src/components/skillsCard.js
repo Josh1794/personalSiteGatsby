@@ -16,9 +16,7 @@ import Html from "./skillsImages/html"
 import Css from "./skillsImages/css"
 
 export default function SkillCards() {
-  if (typeof window !== `undefined`) {
-    const module = require("module")
-  }
+  const module = typeof window !== `undefined` ? require("module") : null
   if (window.screen.width > 600) {
     return (
       <div>
