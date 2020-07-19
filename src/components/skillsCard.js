@@ -16,7 +16,7 @@ import Html from "./skillsImages/html"
 import Css from "./skillsImages/css"
 
 export default function SkillCards() {
-  if (window.screen.width > 600) {
+  if (screen.width > 600) {
     return (
       <div>
         <div class="skillsSection">
