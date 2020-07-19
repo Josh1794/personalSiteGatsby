@@ -15,7 +15,6 @@ import SassLogo from "./skillsImages/sass"
 import Html from "./skillsImages/html"
 import Css from "./skillsImages/css"
 
-const module = typeof window !== `undefined` ? require("module") : null
 export default function SkillCards() {
   if (window && window.screen.width > 600) {
     return (
