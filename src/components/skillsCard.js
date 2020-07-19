@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import JS from "./skillsImages/javascript"
 import ReactLogo from "./skillsImages/react"
 import GatsbyLogo from "./skillsImages/gatsbyLogo"
@@ -16,7 +16,15 @@ import Html from "./skillsImages/html"
 import Css from "./skillsImages/css"
 
 export default function SkillCards() {
-  if (window && window.screen.width > 600) {
+  const screenWidth = false
+  useEffect(() => {
+    // Update the document title using the browser API
+    if (window.screen.width > 600) {
+      screenWidth === true
+    }
+  })
+
+  if (screenWidth) {
     return (
       <div>
         <div class="skillsSection">
