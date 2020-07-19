@@ -11,14 +11,7 @@ const MetaImage = () => {
     }
   `)
 
-  return (
-    <Img
-      style={{
-        height: "100vh",
-      }}
-      fluid={data.placeholderImage.childImageSharp.fluid}
-    />
-  )
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default MetaImage
