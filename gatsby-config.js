@@ -13,6 +13,20 @@ module.exports = {
     phone: "516-776-4357",
     resumedownload:
       "https://drive.google.com/file/d/1YtYsYM6FEHskBKUzoZZK8_qgTt1q-NzJ/view?usp=sharing",
+    siteUrl: "https://www.joshua-grossman.com",
+    keywords: [
+      "personal website",
+      "Fullstack Software Engineer",
+      "Web Developer",
+      "New York City",
+      "Joshua Grossman",
+      "Josh Grossman",
+      "Grossman",
+      "Joshua",
+      "Josh",
+      "Developer",
+      "website",
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
