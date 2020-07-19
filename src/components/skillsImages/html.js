@@ -13,10 +13,10 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const Next = () => {
+const Html = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "next.png" }) {
+      placeholderImage: file(relativePath: { eq: "HTML5.png" }) {
         childImageSharp {
           fixed(width: 60) {
             ...GatsbyImageSharpFixed
@@ -29,10 +29,10 @@ const Next = () => {
   return (
     <Img
       fixed={data.placeholderImage.childImageSharp.fixed}
-      alt="nextPic"
-      className="nextPic"
+      alt="htmlPic"
+      className="htmlPic"
     />
   )
 }
 
-export default Next
+export default Html

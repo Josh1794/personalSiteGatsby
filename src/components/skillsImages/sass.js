@@ -13,12 +13,12 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const Next = () => {
+const SassLogo = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "next.png" }) {
+      placeholderImage: file(relativePath: { eq: "sass-logo.png" }) {
         childImageSharp {
-          fixed(width: 60) {
+          fixed(width: 60, height: 60) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -29,10 +29,10 @@ const Next = () => {
   return (
     <Img
       fixed={data.placeholderImage.childImageSharp.fixed}
-      alt="nextPic"
-      className="nextPic"
+      alt="sassLogo"
+      className="sassLogo"
     />
   )
 }
 
-export default Next
+export default SassLogo
