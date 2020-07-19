@@ -16,8 +16,8 @@ import Html from "./skillsImages/html"
 import Css from "./skillsImages/css"
 
 export default function SkillCards() {
-  const screenWidth = false
   useEffect(() => {
+    let screenWidth = false
     // Update the document title using the browser API
     if (window.screen.width > 600) {
       screenWidth === true
