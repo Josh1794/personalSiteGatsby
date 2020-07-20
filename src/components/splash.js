@@ -22,7 +22,9 @@ export default function Splash() {
     <div role="banner" className="splash" id="splash">
       <div className="headerPage">
         <div id="splashAnimation" data-sal="slide-up">
-          <SVGTitle />
+          <h1>
+            <SVGTitle />
+          </h1>
           <h3 className="subTitle" align="center">
             {subTitle}
             <div className="social">
