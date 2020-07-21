@@ -10,12 +10,13 @@ export default function Contact() {
             name
             phone
             email
+            resumedownload
           }
         }
       }
     `
   )
-  const { name, phone, email } = site.siteMetadata
+  const { name, phone, email, resumedownload } = site.siteMetadata
 
   return (
     <div
@@ -52,7 +53,7 @@ export default function Contact() {
               target="_blank"
               rel="noreferrer noopener"
               className="resumeButton"
-              href="https://drive.google.com/open?id=1ziiW5NfAuwIiLqVbRas_qrdixoK8Wshu"
+              href={resumedownload}
               aria-label="My Resume "
             >
               My Resume <i className="fas fa-file"></i>

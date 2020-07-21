@@ -12,7 +12,7 @@ module.exports = {
     email: "Josh1794@gmail.com",
     phone: "516-776-4357",
     resumedownload:
-      "https://drive.google.com/file/d/1YtYsYM6FEHskBKUzoZZK8_qgTt1q-NzJ/view?usp=sharing",
+      "https://drive.google.com/file/d/12PmzEic0ahuzrIa68hHjOe3Puex12Aqm/view?usp=sharing",
     siteUrl: "https://www.joshua-grossman.com",
     keywords: [
       "personal website",
