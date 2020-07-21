@@ -16,6 +16,7 @@ module.exports = {
     siteUrl: "https://www.joshua-grossman.com",
     keywords: [
       "personal website",
+      "Fullstack Software Engineer in New York City",
       "Fullstack Software Engineer",
       "Web Developer",
       "New York City",
@@ -26,12 +27,22 @@ module.exports = {
       "Josh",
       "Developer",
       "website",
+      "resume",
+      "NYC",
+      "developer in NYC",
+      "developer in NY",
+      "Fullstack Academy Alumni",
+      "Columbia University Alumni",
+      "Columbia University Alumni Software Developer",
+      "Hofstra Alumni",
+      "Joshua Grossman's Resume",
     ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-transition-link`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -58,6 +69,14 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `public/icons/favicon-32x32.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Poppins:wght@300"],
+        },
       },
     },
 

@@ -20,7 +20,7 @@ export default function Contact() {
   return (
     <div
       id="contactPage"
-      class="contactPage"
+      className="contactPage"
       style={{
         borderBottomWidth: 1,
         borderBottomColor: "White",
@@ -30,30 +30,32 @@ export default function Contact() {
       <br />
       <br />
       <div>
-        <h2 class="pageHeader">Contact Details</h2>
-        <div class="contactInfo">
-          <p className="address">
+        <h2 className="pageHeader">Contact Details</h2>
+        <div className="contactInfo">
+          <div className="address">
             <h4>Name:</h4>
-            <h4>{name}</h4>
+            <p>{name}</p>
             <br />
             <h4>Phone:</h4>
-            <h4>{phone}</h4>
+            <p>{phone}</p>
             <br />
             <h4>Email:</h4>
-            <a class="emailLink" href="mailto:josh1794@gmail.com">
-              {email}
-            </a>
-          </p>
+            <p>
+              <a className="emailLink" href="mailto:josh1794@gmail.com">
+                {email}
+              </a>
+            </p>
+          </div>
           <br />
           <p>
             <a
               target="_blank"
               rel="noreferrer noopener"
-              class="resumeButton"
+              className="resumeButton"
               href="https://drive.google.com/open?id=1ziiW5NfAuwIiLqVbRas_qrdixoK8Wshu"
               aria-label="My Resume "
             >
-              My Resume <i class="fas fa-download"></i>
+              My Resume <i className="fas fa-file"></i>
             </a>
           </p>
         </div>

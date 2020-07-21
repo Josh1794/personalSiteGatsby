@@ -9,7 +9,7 @@ export default function SocialIcons() {
         target="_blank"
         rel="noreferrer noopener"
       >
-        <i class="fab fa-linkedin-in"></i>
+        <i className="fab fa-linkedin-in"></i>
       </a>
       <a
         aria-label="Github Profile"
@@ -17,7 +17,7 @@ export default function SocialIcons() {
         target="_blank"
         rel="noreferrer noopener"
       >
-        <i class="fab fa-github"></i>
+        <i className="fab fa-github"></i>
       </a>
       <a
         aria-label="Twitter Profile"
@@ -25,7 +25,7 @@ export default function SocialIcons() {
         target="_blank"
         rel="noreferrer noopener"
       >
-        <i aria-hidden="false" class="fab fa-twitter"></i>
+        <i aria-hidden="false" className="fab fa-twitter"></i>
       </a>
       <a
         aria-label="Stack Overflow Profile"
@@ -33,7 +33,7 @@ export default function SocialIcons() {
         target="_blank"
         rel="noreferrer noopener"
       >
-        <i class="fab fa-stack-overflow"></i>
+        <i className="fab fa-stack-overflow"></i>
       </a>
     </div>
   )

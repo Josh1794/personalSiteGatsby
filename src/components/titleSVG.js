@@ -1,7 +1,7 @@
 import React from "react"
 
 const SVGTitle = () => (
-  <div class="responsive-headline" title>
+  <div className="responsive-headline">
     <svg
       id="title"
       height="110"

@@ -4,7 +4,7 @@ import Cards from "./portfolioCards"
 const Portfolio = () => (
   <div
     id="portfolioPage"
-    class="portfolioPage"
+    className="portfolioPage"
     style={{
       borderBottomWidth: 1,
       borderBottomColor: "White",
@@ -14,9 +14,9 @@ const Portfolio = () => (
     <br />
     <br />
     <div>
-      <h2 class="pageHeader">My Portfolio</h2>
+      <h2 className="pageHeader">My Portfolio</h2>
       <div>
-        <h3 class="pageSubTitle" align="center">
+        <h3 className="pageSubTitle" align="center">
           Check out some of my projects
         </h3>
         <Cards />

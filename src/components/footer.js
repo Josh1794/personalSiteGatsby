@@ -11,12 +11,12 @@ export default function Footer() {
         borderTopWidth: 1,
       }}
     >
-      <button onClick={() => scrollTo("#splash")} class="footerButton">
+      <button onClick={() => scrollTo("#splash")} className="footerButton">
         ^
       </button>
       <br />
-      <h4 align="center">You can find me here</h4>
-      <div class="socialFooter">
+      <p>You can also find me here</p>
+      <div className="socialFooter">
         <SocialIcons />
       </div>
     </footer>

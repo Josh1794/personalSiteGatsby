@@ -19,106 +19,106 @@ export default function SkillCards() {
   // if (window.screen.width > 600) {
   return (
     <div>
-      <div class="skillsSection">
-        <div class="skillContent">
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
+      <div className="skillsSection">
+        <div className="skillContent">
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
               <JS />
-              <span class="tooltiptext">Javascript</span>
+              <span className="tooltiptext">Javascript</span>
             </div>
           </div>
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
               <TS />
-              <span class="tooltiptext">Typescript</span>
+              <span className="tooltiptext">Typescript</span>
             </div>
           </div>
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
               <Html />
-              <span class="tooltiptext">HTML 5</span>
+              <span className="tooltiptext">HTML 5</span>
             </div>
           </div>
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
               <Css />
-              <span class="tooltiptext">CSS 3</span>
+              <span className="tooltiptext">CSS 3</span>
             </div>
           </div>
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
               <SassLogo />
-              <span class="tooltiptext">SASS/SCSS</span>
+              <span className="tooltiptext">SASS/SCSS</span>
             </div>
           </div>
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
               <ReactLogo />
-              <span class="tooltiptext">React / React Native</span>
+              <span className="tooltiptext">React / React Native</span>
             </div>
           </div>
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
               <GatsbyLogo />
-              <span class="tooltiptext">Gatsby</span>
+              <span className="tooltiptext">Gatsby</span>
             </div>
           </div>
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
               <Next />
-              <span class="tooltiptext">Next.js</span>
+              <span className="tooltiptext">Next.js</span>
             </div>
           </div>
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
               <Redux />
-              <span class="tooltiptext">Redux</span>
+              <span className="tooltiptext">Redux</span>
             </div>
           </div>
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
               <NodeLogo />
-              <span class="tooltiptext">NodeJS</span>
+              <span className="tooltiptext">NodeJS</span>
             </div>
           </div>
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
               <Express />
-              <span class="tooltiptext">ExpressJS</span>
+              <span className="tooltiptext">ExpressJS</span>
             </div>
           </div>
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
               <Sequelize />
-              <span class="tooltiptext">SequelizeJS</span>
+              <span className="tooltiptext">SequelizeJS</span>
             </div>
           </div>
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
               <Postgres />
-              <span class="tooltiptext">PostgreSQL</span>
+              <span className="tooltiptext">PostgreSQL</span>
             </div>
           </div>
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
               <Mongo />
-              <span class="tooltiptext">MongoDB</span>
+              <span className="tooltiptext">MongoDB</span>
             </div>
           </div>
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
-              <i class="fab fa-github" style={{ fontSize: "60px" }}></i>
-              <span class="tooltiptext">Github</span>
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
+              <i className="fab fa-github" style={{ fontSize: "60px" }}></i>
+              <span className="tooltiptext">Github</span>
             </div>
           </div>
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
-              <i class="fab fa-git-alt" style={{ fontSize: "60px" }}></i>
-              <span class="tooltiptext">Git</span>
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
+              <i className="fab fa-git-alt" style={{ fontSize: "60px" }}></i>
+              <span className="tooltiptext">Git</span>
             </div>{" "}
           </div>
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
               <svg
                 width="60"
                 // height="60"
@@ -131,13 +131,13 @@ export default function SkillCards() {
                   fill="#000"
                 />
               </svg>
-              <span class="tooltiptext">Vercel</span>
+              <span className="tooltiptext">Vercel</span>
             </div>
           </div>
-          <div class="skills" data-sal="fade" id="splashAnimation">
-            <div class="tooltip">
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
               <VS />
-              <span class="tooltiptext">VS Code</span>
+              <span className="tooltiptext">VS Code</span>
             </div>
           </div>
         </div>
@@ -148,82 +148,82 @@ export default function SkillCards() {
   //   // LABELS W/O TOOLTIPS
   //   return (
   //     <div>
-  //       <div class="skillsSection">
-  //         <div class="skillContent">
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
+  //       <div className="skillsSection">
+  //         <div className="skillContent">
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
   //             <JS />
   //             <h6>Javascript</h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
   //             <TS />
   //             <h6>Typescript</h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
   //             <Html />
   //             <h6>HTML 5</h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
   //             <Css />
   //             <h6>CSS 3</h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
   //             <SassLogo />
   //             <h6>SASS/SCSS</h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
   //             <ReactLogo />
   //             <h6>React</h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
   //             <ReactLogo />
   //             <h6>React Native</h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
   //             <GatsbyLogo />
   //             <h6>Gatsby</h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
   //             <Next />
   //             <h6>Next.js </h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
   //             <Redux />
   //             <h6>Redux </h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
   //             <NodeLogo />
   //             <h6>Node </h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
   //             <Express />
   //             <br />
   //             <h6>Express </h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
   //             <Sequelize />
   //             <h6>Sequelize </h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
   //             <Postgres />
   //             <h6>PostgreSQL </h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
   //             <Mongo />
   //             <h6>MongoDB </h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
-  //             <i class="fab fa-github" style={{ fontSize: "60px" }}></i>
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
+  //             <i className="fab fa-github" style={{ fontSize: "60px" }}></i>
   //             <h6>Github </h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
-  //             <i class="fab fa-git-alt" style={{ fontSize: "60px" }}></i>
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
+  //             <i className="fab fa-git-alt" style={{ fontSize: "60px" }}></i>
   //             <h6> Git </h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
   //             <VS />
   //             <h6>VS Code </h6>
   //           </div>
-  //           <div class="skills" data-sal="fade" id="splashAnimation">
+  //           <div className="skills" data-sal="fade" id="splashAnimation">
   //             <svg
   //               width="60"
   //               height="60"

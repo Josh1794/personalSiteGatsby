@@ -19,7 +19,7 @@ export default function About() {
   return (
     <div
       id="aboutPage"
-      class="aboutPage"
+      className="aboutPage"
       style={{
         borderBottomWidth: 1,
         borderBottomColor: "White",
@@ -29,10 +29,10 @@ export default function About() {
       <br />
       <br />
       <div>
-        <h2 class="pageHeader">
+        <h2 className="pageHeader">
           About me <Image />
         </h2>
-        <body class="aboutText">{bio}</body>
+        <p className="aboutText">{bio}</p>
       </div>
     </div>
   )

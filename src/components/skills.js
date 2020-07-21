@@ -18,7 +18,7 @@ export default function Skills() {
   return (
     <div
       id="skillsPage"
-      class="skillsPage"
+      className="skillsPage"
       style={{
         borderBottomWidth: 1,
         borderBottomColor: "White",
@@ -27,10 +27,10 @@ export default function Skills() {
     >
       <br />
       <br />
-      <h2 class="pageHeader">Skills</h2>
-      <body class="pageSubTitle">{tech}</body>
+      <h2 className="pageHeader">Skills</h2>
+      <p className="pageSubTitle">{tech}</p>
       <br />
-      <div class="skillCards">
+      <div className="skillCards">
         <SkillCards />
       </div>
     </div>
