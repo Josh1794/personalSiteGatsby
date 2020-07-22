@@ -47,18 +47,6 @@ export default function Contact() {
               </a>
             </p>
           </div>
-          <br />
-          <p>
-            <a
-              target="_blank"
-              rel="noreferrer noopener"
-              className="resumeButton"
-              href={resumedownload}
-              aria-label="My Resume "
-            >
-              My Resume <i className="fas fa-file"></i>
-            </a>
-          </p>
         </div>
       </div>
     </div>

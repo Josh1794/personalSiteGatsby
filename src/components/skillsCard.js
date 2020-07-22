@@ -14,6 +14,7 @@ import Express from "./skillsImages/express"
 import SassLogo from "./skillsImages/sass"
 import Html from "./skillsImages/html"
 import Css from "./skillsImages/css"
+import Netlify from "./skillsImages/netlify"
 
 export default function SkillCards() {
   // if (window.screen.width > 600) {
@@ -132,6 +133,12 @@ export default function SkillCards() {
                 />
               </svg>
               <span className="tooltiptext">Vercel</span>
+            </div>
+          </div>
+          <div className="skills" data-sal="fade" id="splashAnimation">
+            <div className="tooltip">
+              <Netlify />
+              <span className="tooltiptext">Netlify</span>
             </div>
           </div>
           <div className="skills" data-sal="fade" id="splashAnimation">

@@ -8,16 +8,6 @@ import SEO from "../components/seo"
 import Skills from "../components/skills"
 
 export default function IndexPage() {
-  console.log(
-    "\n\
-    ╭━━╮╭━━━┳━━━┳━━━╮╭╮╱╱╭┳━━━┳╮╱╭╮\n\
-    ╰┫┣╯┃╭━╮┃╭━━┫╭━━╯┃╰╮╭╯┃╭━╮┃┃╱┃┃\n\
-    ╱┃┃╱┃╰━━┫╰━━┫╰━━╮╰╮╰╯╭┫┃╱┃┃┃╱┃┃\n\
-    ╱┃┃╱╰━━╮┃╭━━┫╭━━╯╱╰╮╭╯┃┃╱┃┃┃╱┃┃\n\
-    ╭┫┣╮┃╰━╯┃╰━━┫╰━━╮╱╱┃┃╱┃╰━╯┃╰━╯┃\n\
-    ╰━━╯╰━━━┻━━━┻━━━╯╱╱╰╯╱╰━━━┻━━━╯\n\
-    "
-  )
   return (
     <Layout>
       <SEO title="Joshua Grossman" />

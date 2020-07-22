@@ -100,12 +100,36 @@ h1 {
   color: white;
   font-size: 1rem;
   align-self: center;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.navButton:hover {
-  color: orange;
+  padding-left: 1rem;
+  padding-right: 1rem;
   text-decoration: none;
+
+  &:hover {
+    color: orange;
+    text-decoration: none;
+  }
+}
+
+.navContent {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLabel {
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  cursor: default;
+}
+
+.navLinks {
+  width: fit-content;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
 }
 
 @media screen and (max-width: 600px) {
@@ -116,12 +140,32 @@ h1 {
     color: white;
     font-size: 0.8rem;
     align-self: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-decoration: none;
   }
   .navButton:hover {
     color: orange;
     text-decoration: none;
+  }
+  .navContent {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navLabel {
+    padding: 0;
+    margin: 0;
+    cursor: default;
+  }
+
+  .navLinks {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -351,10 +395,10 @@ h1 {
 }
 
 .contactInfo {
-  width: 50%;
+  width: 40%;
   color: $dark-theme;
   background-color: white;
-  margin-left: 25%;
+  margin-left: 30%;
   padding-top: 30px;
   padding-bottom: 10px;
   display: flex;
@@ -362,6 +406,7 @@ h1 {
   align-items: center;
   justify-content: center;
   box-shadow: 5px 5px 10px black;
+  border-radius: 0.25em;
 }
 
 @media screen and (max-width: 600px) {
@@ -388,21 +433,48 @@ h1 {
   color: orange;
 }
 
-.resumeButton {
+.resumePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.resumePageTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resumePageButton {
   padding: 10px;
-  background-color: $dark-theme;
+  background-color: $light-theme;
   text-decoration: none;
-  color: white;
+  color: $dark-theme;
   border-radius: 0.25rem;
   -webkit-transition: background 0.5s; /* For Safari 3.0 to 6.0 */
   transition: background 0.5s; /* For modern browsers */
+
+  &:hover {
+    background-color: orange;
+    text-decoration: none;
+    color: $dark-theme;
+    mix-blend-mode: normal;
+  }
 }
 
-.resumeButton:hover {
-  background-color: orange;
-  text-decoration: none;
-  color: $dark-theme;
-  mix-blend-mode: normal;
+.resume {
+  height: 80vh;
+  width: 70vw;
+}
+
+@media screen and (max-width: 600px) {
+  .resume {
+    width: 85vw;
+    height: 50vh;
+  }
 }
 
 .socialFooter {
@@ -585,7 +657,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 100%/1.45em georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
