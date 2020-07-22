@@ -79,6 +79,12 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.joshua-grossman.com`,
+      },
+    },
 
     //
     // this (optional) plugin enables Progressive Web App + Offline functionality
