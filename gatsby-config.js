@@ -66,7 +66,7 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         background_color: `#000`,
-        theme_color: `#663399`,
+        theme_color: `#ffa500`,
         display: `minimal-ui`,
         icon: `public/icons/favicon-32x32.png`, // This path is relative to the root of the site.
       },
